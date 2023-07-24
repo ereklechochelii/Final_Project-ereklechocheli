@@ -1,15 +1,68 @@
 header {
   nav {
+    display: flex;
+    justify-content: space-between;
     .logo {
-        img {
-            height: 40px;
-        }
+      margin-left: 110px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      i {
+        padding-top: 22px;
+        margin: 0px 5px;
+      }
+      img {
+        height: 40px;
+      }
     }
     .nav {
+      margin-right: 110px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        margin-left: 40px;
+        color: var(--black, #0b0706);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
       .reg {
+        display: relative;
+        width: 115px;
+        height: 43px;
+        border-radius: 4px;
+        background-color: #1d2130;
+        margin-left: 40px;
+        a {
+          color: aliceblue;
+          display: absolute;
+          top: 50%;
+          right: 50%;
       }
       .sign {
+        display: relative;
+        width: 115px;
+        height: 43px;
+        border-radius: 4px;
+        background-color: #1d2130;
+        margin-left: 40px;
+        a{
+          color: aliceblue;
+          display: absolute;
+          top: 50%;
+          right: 50%;
+        }
       }
     }
+  }
+}
+.map {
+  iframe {
+    width: 1723px;
   }
 }
