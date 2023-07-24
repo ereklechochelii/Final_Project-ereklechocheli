@@ -40,9 +40,9 @@ header {
         margin-left: 40px;
         a {
           color: aliceblue;
-          display: absolute;
-          top: 50%;
-          right: 50%;
+          // display: absolute;
+          // top: 50%;
+          // right: 50%;
       }
       .sign {
         display: relative;
@@ -53,16 +53,24 @@ header {
         margin-left: 40px;
         a{
           color: aliceblue;
-          display: absolute;
-          top: 50%;
-          right: 50%;
+          // display: absolute;
+          // top: 50%;
+          // right: 50%;
         }
       }
     }
   }
 }
-.map {
-  iframe {
-    width: 1723px;
+.message {
+  .2008 {
+    display: flex;
+    h3 {
+     color: #70C174 ; 
+    }
+    .line {
+     color: #70C174;
+     width: 861px;
+height: 1px;
+    }
   }
 }
