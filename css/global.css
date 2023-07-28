@@ -115,6 +115,7 @@ header nav .nav .sign a {
 
 .message {
   background-color: #eff7f2;
+  height: 800px;
 }
 .message .occup {
   display: flex;
@@ -218,6 +219,9 @@ header nav .nav .sign a {
   display: flex;
   align-items: center;
 }
+.message .desc .logos .monument i {
+  margin-right: 10px;
+}
 .message .desc .logos .monument h2 {
   color: #1d2130;
   font-family: sans-serif;
@@ -229,6 +233,9 @@ header nav .nav .sign a {
 .message .desc .logos .nature {
   display: flex;
   align-items: center;
+}
+.message .desc .logos .nature i {
+  margin-right: 10px;
 }
 .message .desc .logos .nature h2 {
   color: #1d2130;
@@ -242,6 +249,9 @@ header nav .nav .sign a {
   display: flex;
   align-items: center;
 }
+.message .desc .logos .people i {
+  margin-right: 10px;
+}
 .message .desc .logos .people h2 {
   color: #1d2130;
   font-family: sans-serif;
@@ -254,6 +264,9 @@ header nav .nav .sign a {
   display: flex;
   align-items: center;
 }
+.message .desc .logos .trad i {
+  margin-right: 10px;
+}
 .message .desc .logos .trad h2 {
   color: #1d2130;
   font-family: sans-serif;
@@ -261,4 +274,58 @@ header nav .nav .sign a {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
+}
+
+.sec-2 .desire {
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  padding-top: 80px;
+}
+.sec-2 .desire .line4 {
+  width: 72px;
+  height: 1px;
+  background-color: #1d2130;
+  margin-right: 24px;
+}
+.sec-2 .desire h4 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.sec-2 .me h1 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  width: 608px;
+  margin-left: 206px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.sec-2 .me h4 {
+  color: #BEF3C0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-left: 206px;
+}
+.sec-2 .border {
+  margin-left: 206px;
+  margin-top: 33px;
+  display: flex;
+}
+.sec-2 .border .leftline {
+  width: 1px;
+  height: 441px;
+  background-color: #E5E5E5;
 }/*# sourceMappingURL=global.css.map */
