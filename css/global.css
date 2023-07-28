@@ -136,6 +136,8 @@ header nav .nav .sign a {
 }
 .message .target {
   margin-top: 150px;
+  display: flex;
+  flex-direction: column;
 }
 .message .target .slogan {
   display: flex;
@@ -156,10 +158,23 @@ header nav .nav .sign a {
   letter-spacing: 2px;
   color: #1d2130;
 }
-.message .yours {
+.message .target .paragraph {
+  margin-top: 32px;
+  margin-left: 195px;
+}
+.message .target .paragraph P {
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 500px;
+}
+.message .target .yours {
   width: 90px;
 }
-.message .yours h1 {
+.message .target .yours h1 {
   font-family: sans-serif;
   font-size: 48px;
   font-style: normal;
@@ -167,4 +182,83 @@ header nav .nav .sign a {
   line-height: 120%;
   margin-top: 32px;
   margin-left: 200px;
+}
+.message .desc {
+  margin-top: 64px;
+}
+.message .desc .short {
+  display: flex;
+  align-items: center;
+}
+.message .desc .short h4 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 110px;
+  margin-right: 100px;
+}
+.message .desc .short .line3 {
+  width: 1200px;
+  height: 1px;
+  background-color: #525560;
+}
+.message .desc .logos {
+  margin-left: 110px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.message .desc .logos div {
+  width: 290px;
+}
+.message .desc .logos .monument {
+  display: flex;
+  align-items: center;
+}
+.message .desc .logos .monument h2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.message .desc .logos .nature {
+  display: flex;
+  align-items: center;
+}
+.message .desc .logos .nature h2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.message .desc .logos .people {
+  display: flex;
+  align-items: center;
+}
+.message .desc .logos .people h2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.message .desc .logos .trad {
+  display: flex;
+  align-items: center;
+}
+.message .desc .logos .trad h2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
 }/*# sourceMappingURL=global.css.map */
