@@ -43,6 +43,7 @@ header {
           // display: absolute;
           // top: 50%;
           // right: 50%;
+        }
       }
       .sign {
         display: relative;
@@ -51,7 +52,7 @@ header {
         border-radius: 4px;
         background-color: #1d2130;
         margin-left: 40px;
-        a{
+        a {
           color: aliceblue;
           // display: absolute;
           // top: 50%;
@@ -62,15 +63,57 @@ header {
   }
 }
 .message {
-  .2008 {
+  background-color: #eff7f2;
+  .occup {
     display: flex;
+    align-items: center;
+    justify-content: center;
     h3 {
-     color: #70C174 ; 
+      color: #525560;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
     }
     .line {
-     color: #70C174;
-     width: 861px;
-height: 1px;
+      background-color: #525560;
+      width: 1000px;
+      height: 1px;
+      margin: 20px 24px;
+    }
+  }
+  .target {
+    margin-top: 150px;
+    .slogan {
+      display: flex;
+      align-items: center;
+      margin-left: 110px;
+      .line2 {
+        width: 72px;
+        height: 1px;
+        background-color: #1d2130;
+        margin-right: 24px;
+      }
+      h2 {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 2px;
+        color: #1d2130;
+      }
+    }
+  }
+  .yours {
+    width: 90px;
+    h1 {
+      font-family: sans-serif;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      margin-top: 32px;
+      margin-left: 200px;
     }
   }
 }
