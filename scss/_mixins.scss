@@ -1,0 +1,29 @@
+@mixin header-3 {
+  color: #1d2130;
+  font-family: serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width:500px;
+}
+
+@mixin header-4 {
+  color:  #525560;
+  font-family: serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 400px;
+  margin-top: 7px;
+}
+
+@mixin header-2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}

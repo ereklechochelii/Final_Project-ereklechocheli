@@ -228,7 +228,7 @@ header nav .nav .sign a {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 57.6px */
+  line-height: 120%;
 }
 .message .desc .logos .nature {
   display: flex;
@@ -276,6 +276,10 @@ header nav .nav .sign a {
   line-height: 120%;
 }
 
+.sec-2 {
+  display: flex;
+  align-items: center;
+}
 .sec-2 .desire {
   display: flex;
   align-items: center;
@@ -311,7 +315,7 @@ header nav .nav .sign a {
   margin-bottom: 16px;
 }
 .sec-2 .me h4 {
-  color: #BEF3C0;
+  color: #bef3c0;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -327,5 +331,125 @@ header nav .nav .sign a {
 .sec-2 .border .leftline {
   width: 1px;
   height: 441px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
+}
+.sec-2 .border .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec-2 .border .list .l1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-2 .border .list .l1 i {
+  margin: 0px 24px;
+}
+.sec-2 .border .list .l1 .t1 h3 {
+  color: #1d2130;
+  font-family: serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 500px;
+}
+.sec-2 .border .list .l1 .t1 h4 {
+  color: #525560;
+  font-family: serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 400px;
+  margin-top: 7px;
+}
+.sec-2 .border .list .l2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-2 .border .list .l2 i {
+  margin: 0px 24px;
+}
+.sec-2 .border .list .l2 .t2 h3 {
+  color: #1d2130;
+  font-family: serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 500px;
+}
+.sec-2 .border .list .l2 .t2 h4 {
+  color: #525560;
+  font-family: serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 400px;
+  margin-top: 7px;
+}
+.sec-2 .border .list .l3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-2 .border .list .l3 i {
+  margin: 0px 24px;
+}
+.sec-2 .border .list .l3 .t3 h3 {
+  color: #1d2130;
+  font-family: serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 500px;
+}
+.sec-2 .border .list .l3 .t3 h4 {
+  color: #525560;
+  font-family: serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 400px;
+  margin-top: 7px;
+}
+.sec-2 .border .list .l4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-2 .border .list .l4 i {
+  margin: 0px 24px;
+}
+.sec-2 .border .list .l4 .t4 h3 {
+  color: #1d2130;
+  font-family: serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 500px;
+}
+.sec-2 .border .list .l4 .t4 h4 {
+  color: #525560;
+  font-family: serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 400px;
+  margin-top: 7px;
+}
+.sec-2 .photo {
+  margin-top: 88px;
+}
+.sec-2 .photo img {
+  width: 800px;
+  height: 500px;
 }/*# sourceMappingURL=global.css.map */
