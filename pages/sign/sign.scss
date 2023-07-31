@@ -1,36 +1,36 @@
 body {
-    background-color: #525560;
-.form {
+  background-color: #525560;
+  .form {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
     form {
-        padding-top: 300px;
-    .logos {
+      padding-top: 300px;
+      .logos {
         display: flex;
         justify-content: center;
-        img{
-            height: 40px;
+        img {
+          height: 40px;
         }
-    }
-    .mb-3 {
+      }
+      .mb-3 {
         width: 400px;
         .form-label {
-            color: #70C174;
+          color: #70c174;
         }
         .form-check-label {
-            color: #70C174;
+          color: #70c174;
         }
-    }
-    button {
+      }
+      button {
         width: 400px;
-    }
-    button:hover {
-        background-color:#70C174;
+      }
+      button:hover {
+        background-color: #70c174;
         border: solid black 2px;
+      }
     }
-}
-}
+  }
 }
