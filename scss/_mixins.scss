@@ -40,20 +40,41 @@
 
 @mixin news-p {
   width: 290px;
-  color:  #525560;
+  color: #525560;
   font-family: sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 @mixin news-h2 {
-  color:  #1C1D28;
+  color: #1c1d28;
   font-family: sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; 
+  line-height: 150%;
+}
+
+@mixin numb {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+
+@mixin month {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
