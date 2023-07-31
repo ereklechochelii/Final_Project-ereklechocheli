@@ -98,7 +98,7 @@ header nav .nav .reg {
   margin-left: 40px;
 }
 header nav .nav .reg h3 {
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-family: Roboto;
   font-size: 16px;
@@ -114,7 +114,7 @@ header nav .nav .sign {
   margin-left: 40px;
 }
 header nav .nav .sign h3 {
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-family: Roboto;
   font-size: 16px;
@@ -521,4 +521,94 @@ header nav .nav .sign h3 {
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
+}
+
+.views .back {
+  width: 100%;
+  height: 567px;
+  background-color: #0b0706;
+  display: flex;
+}
+.views .back .month h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding-left: 110px;
+  padding-top: 142px;
+}
+.views .back .month p {
+  color: #70c174;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding-left: 110px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.views .back .month .cubes {
+  margin-left: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.views .back .month .cubes .pos {
+  display: flex;
+  align-items: center;
+}
+.views .back .month .cubes .pos div {
+  border-radius: 4px;
+  background: #bef3c0;
+  width: 16px;
+  height: 16px;
+}
+.views .back .month .cubes .pos h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin-left: 8px;
+}
+.views .back .month .cubes .neg {
+  display: flex;
+  align-items: center;
+}
+.views .back .month .cubes .neg div {
+  border-radius: 4px;
+  background: red;
+  width: 16px;
+  height: 16px;
+}
+.views .back .month .cubes .neg h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin-left: 8px;
+}
+.views .back .month .cubes .neutral {
+  display: flex;
+  align-items: center;
+}
+.views .back .month .cubes .neutral div {
+  border-radius: 4px;
+  background: #AC94F1;
+  width: 16px;
+  height: 16px;
+}
+.views .back .month .cubes .neutral h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin-left: 8px;
 }/*# sourceMappingURL=global.css.map */
