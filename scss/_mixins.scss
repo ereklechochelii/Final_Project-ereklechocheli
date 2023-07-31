@@ -5,11 +5,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width:500px;
+  width: 500px;
 }
 
 @mixin header-4 {
-  color:  #525560;
+  color: #525560;
   font-family: serif;
   font-size: 16px;
   font-style: normal;
@@ -29,11 +29,11 @@
 }
 
 @mixin rate {
-  color: #FFF;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-margin-left: 8px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin-left: 8px;
 }

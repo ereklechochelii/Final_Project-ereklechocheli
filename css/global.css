@@ -528,6 +528,10 @@ header nav .nav .sign h3 {
   height: 567px;
   background-color: #0b0706;
   display: flex;
+  justify-content: space-between;
+}
+.views .back .month {
+  padding-left: 110px;
 }
 .views .back .month h1 {
   color: #fff;
@@ -536,7 +540,6 @@ header nav .nav .sign h3 {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  padding-left: 110px;
   padding-top: 142px;
 }
 .views .back .month p {
@@ -546,12 +549,10 @@ header nav .nav .sign h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  padding-left: 110px;
   margin-top: 16px;
   margin-bottom: 32px;
 }
 .views .back .month .cubes {
-  margin-left: 110px;
   display: flex;
   justify-content: space-between;
 }
@@ -566,7 +567,7 @@ header nav .nav .sign h3 {
   height: 16px;
 }
 .views .back .month .cubes .pos h4 {
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -585,7 +586,7 @@ header nav .nav .sign h3 {
   height: 16px;
 }
 .views .back .month .cubes .neg h4 {
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -599,16 +600,70 @@ header nav .nav .sign h3 {
 }
 .views .back .month .cubes .neutral div {
   border-radius: 4px;
-  background: #AC94F1;
+  background: #ac94f1;
   width: 16px;
   height: 16px;
 }
 .views .back .month .cubes .neutral h4 {
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
   margin-left: 8px;
+}
+.views .back .circles {
+  margin-right: 110px;
+}
+.views .back .circles .mother {
+  width: 375px;
+  height: 375px;
+  border-radius: 100%;
+  background-color: #ac94f1;
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.views .back .circles .mother .child {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.views .back .circles .mother .child img {
+  height: 40px;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E5E5;
+  padding: 98px 0px;
+}
+.help .castle {
+  width: 1000px;
+  height: 500px;
+  background-image: url("../imgs/eristavebi.jpg");
+  border-radius: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 2px black;
+  display: flex;
+  opacity: 0.5;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.help .castle h1 {
+  color: #70C174;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
 }/*# sourceMappingURL=global.css.map */
