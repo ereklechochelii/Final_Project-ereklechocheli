@@ -495,19 +495,19 @@ header {
           background-color: black;
           display: flex;
           justify-content: center;
-          align-items: center; 
+          align-items: center;
           img {
             height: 40px;
           }
         }
-      }      
+      }
     }
   }
 }
 .help {
   display: flex;
   justify-content: center;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   padding: 98px 0px;
   .castle {
     width: 1000px;
@@ -523,12 +523,79 @@ header {
     justify-content: center;
     flex-direction: column;
     h1 {
-      color: #70C174;
+      color: #70c174;
       font-family: sans-serif;
       font-size: 48px;
       font-style: normal;
-      font-weight:900;
-      line-height: 120%; 
+      font-weight: 900;
+      line-height: 120%;
+    }
+  }
+}
+.news {
+  background-color: #eff7f2;
+  
+  .read {
+    padding-left: 110px;
+    display: flex;
+    align-items: center;
+    padding-top: 96px;
+    h1 {
+      color: #1d2130;
+      font-family: Roboto;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+    }
+    .line6 {
+      width: 981px;
+      height: 1px;
+      background-color: #e5e5e5;
+      margin-left: 16px;
+    }
+  }
+  .facts {
+    padding-left: 110px;
+    display: flex;
+    padding-top: 48px;
+    justify-content: space-between;
+    .news-1 {
+      img {
+        width: 302px;
+        height: 192px;
+      }
+      h2 {
+        @include news-h2
+      }
+      p {
+        @include news-p
+      }
+    }
+    .news-2 {
+      img {
+        width: 302px;
+        height: 192px;
+      }
+      h2 {
+        @include news-h2
+      }
+      p{
+       @include news-p
+      }
+    }
+  }
+  .news-3 {
+    margin-right: 110px;
+    img {
+      width: 302px;
+        height: 192px;
+    }
+    h2 {
+      @include news-h2
+    }
+    p {
+      @include news-p
     }
   }
 }

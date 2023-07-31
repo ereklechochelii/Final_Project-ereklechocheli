@@ -30,10 +30,30 @@
 
 @mixin rate {
   color: #fff;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
   margin-left: 8px;
+}
+
+@mixin news-p {
+  width: 290px;
+  color:  #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 10px; 
+}
+
+@mixin news-h2 {
+  color:  #1C1D28;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
 }
