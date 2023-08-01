@@ -25,7 +25,7 @@ header {
       a {
         margin-left: 40px;
         color: var(--black, #0b0706);
-        font-family: Roboto;
+        font-family: sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -36,7 +36,10 @@ header {
         height: 43px;
         border-radius: 4px;
         background-color: #1d2130;
-        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         h3 {
           color: #fff;
           text-align: right;
@@ -45,6 +48,8 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
+          width: 95px;
+          height: 25px;
         }
       }
       .sign {
@@ -52,7 +57,10 @@ header {
         height: 43px;
         border-radius: 4px;
         background-color: #1d2130;
-        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         h3 {
           color: #fff;
           text-align: right;
@@ -61,6 +69,8 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
+          width: 45px;
+          height: 25px;
         }
       }
     }
@@ -694,7 +704,7 @@ footer {
     padding-left: 110px;
     padding-top: 97px;
     display: flex;
-    width: 1000px;
+    width: 100%;
     justify-content: space-between;
     img {
       height: 80px;
@@ -720,6 +730,16 @@ footer {
         font-weight: 400;
         line-height: 160%;
         margin-bottom: 24px;
+      }
+    }
+    .footer-3 {
+      h2 {
+        color: aliceblue;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
       }
     }
   }
