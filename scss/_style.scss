@@ -732,15 +732,17 @@ footer {
         margin-bottom: 24px;
       }
     }
-    .footer-3 {
+    
       h2 {
         color: aliceblue;
         font-family: sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         font-style: normal;
         font-weight: 700;
         line-height: 140%;
-      }
+        width: 600px;
+        vertical-align: top;
+        
     }
   }
 }
