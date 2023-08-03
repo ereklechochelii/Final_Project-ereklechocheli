@@ -1,1 +1,74 @@
-/*# sourceMappingURL=contacts.css.map */
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .logo {
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+header nav .logo i {
+  padding-top: 22px;
+  margin: 0px 5px;
+}
+header nav .logo img {
+  height: 40px;
+}
+header nav .nav {
+  margin-right: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .nav a {
+  margin-left: 40px;
+  color: var(--black, #0b0706);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+header nav .nav .reg {
+  width: 115px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #1d2130;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .nav .reg h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 95px;
+  height: 25px;
+}
+header nav .nav .sign {
+  width: 115px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #1d2130;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .nav .sign h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 45px;
+  height: 25px;
+}/*# sourceMappingURL=contacts.css.map */
