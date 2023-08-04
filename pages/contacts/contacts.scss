@@ -77,7 +77,11 @@ header {
   }
 }
 .contact {
-  background-color: #ebf0f9;
+  // background-color: #ebf0f9;
+  background-image: url("../../imgs/akhalgori4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   .whole {
     display: flex;
     justify-content: space-between;
@@ -99,7 +103,7 @@ header {
           background-color: #1d2130;
         }
         h4 {
-          color: #1d2130;
+          color: #EBF0F9;
           font-family: sans-serif;
           font-size: 16px;
           font-style: normal;
@@ -112,7 +116,7 @@ header {
       .hear {
         margin-top: 36px;
         h1 {
-          color: #1d2130;
+          color: #EBF0F9;
           font-family: sans-serif;
           font-size: 56px;
           font-style: normal;
@@ -122,7 +126,7 @@ header {
           padding-left: 100px;
         }
         p {
-          color: #1d2130;
+          color: #EBF0F9;
           font-family: sans-serif;
           font-size: 16px;
           font-style: normal;
@@ -142,7 +146,7 @@ header {
       justify-content: space-between;
       .talk {
         h2 {
-          color: #1d2130;
+          color: #EBF0F9;
           font-family: sans-serif;
           font-size: 24px;
           font-style: normal;
@@ -156,7 +160,7 @@ header {
           justify-content: space-between;
           margin: 10px 0px 16px;
           h6 {
-            color: #1d2130;
+            color: #EBF0F9;
             font-family: sans-serif;
             font-size: 16px;
             font-style: normal;
@@ -172,7 +176,7 @@ header {
       }
       .headoffice {
         h2 {
-          color: #1d2130;
+          color: #EBF0F9;
           font-family: sans-serif;
           font-size: 24px;
           font-style: normal;
@@ -181,7 +185,7 @@ header {
         }
         .direction {
           h6 {
-            color: #1d2130;
+            color: #EBF0F9;
             font-family: sans-serif;
             font-size: 16px;
             font-style: normal;
