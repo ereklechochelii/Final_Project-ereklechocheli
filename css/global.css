@@ -774,16 +774,16 @@ header nav .nav .sign h3 {
   line-height: 160%;
   margin-top: 10px;
 }
-.help .event {
+.help .dghe {
   margin-bottom: 96px;
 }
-.help .event .events {
+.help .dghe .events {
   display: flex;
   align-items: center;
   margin-left: 110px;
   margin-top: 50px;
 }
-.help .event .events h1 {
+.help .dghe .events h1 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 40px;
@@ -791,20 +791,20 @@ header nav .nav .sign h3 {
   font-weight: 500;
   line-height: 140%;
 }
-.help .event .events .line6 {
+.help .dghe .events .line6 {
   width: 981px;
   height: 1px;
   background-color: #e5e5e5;
   margin-left: 16px;
 }
-.help .event .boxes {
+.help .dghe .boxes {
   display: flex;
   margin-left: 110px;
   width: 1280px;
   justify-content: space-between;
   margin-top: 48px;
 }
-.help .event .boxes .box {
+.help .dghe .boxes .box {
   display: flex;
   width: 628px;
   height: 191px;
@@ -813,14 +813,14 @@ header nav .nav .sign h3 {
   background: #bef3c0;
   align-items: center;
 }
-.help .event .boxes .box .aug-1 {
+.help .dghe .boxes .box .aug-1 {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
   padding-top: 32px;
   padding-right: 24px;
 }
-.help .event .boxes .box .aug-1 h1 {
+.help .dghe .boxes .box .aug-1 h1 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 48px;
@@ -829,7 +829,7 @@ header nav .nav .sign h3 {
   line-height: 120%;
   font-variant: small-caps;
 }
-.help .event .boxes .box .aug-1 h2 {
+.help .dghe .boxes .box .aug-1 h2 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 16px;
@@ -839,16 +839,16 @@ header nav .nav .sign h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.help .event .boxes .box .inf {
+.help .dghe .boxes .box .inf {
   padding-top: 40px;
 }
-.help .event .boxes .box .inf .tavi {
+.help .dghe .boxes .box .inf .tavi {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 150px;
 }
-.help .event .boxes .box .inf .tavi h1 {
+.help .dghe .boxes .box .inf .tavi h1 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 16px;
@@ -859,12 +859,12 @@ header nav .nav .sign h3 {
   text-transform: uppercase;
   margin-right: 16px;
 }
-.help .event .boxes .box .inf .tavi .line7 {
+.help .dghe .boxes .box .inf .tavi .line7 {
   width: 44px;
   height: 2px;
   background-color: #1d2130;
 }
-.help .event .boxes .box .inf h2 {
+.help .dghe .boxes .box .inf h2 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 28px;

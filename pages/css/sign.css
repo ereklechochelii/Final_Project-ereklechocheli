@@ -31,6 +31,24 @@ body .form form button {
   width: 400px;
 }
 body .form form button:hover {
-  background-color: #70c174;
-  border: solid black 2px;
+  background-color: black;
+  border: solid white 1px;
+}
+body .form form a .goto {
+  width: 400px;
+  height: 38px;
+  background-color: #70C174;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+body .form form a .goto h2 {
+  font-size: 17px;
+  color: white;
+}
+body .form form a .goto:hover {
+  background-color: #1D2130;
+  border: solid white 1px;
 }/*# sourceMappingURL=sign.css.map */

@@ -18,7 +18,7 @@ body {
       .mb-3 {
         width: 400px;
         .form-label {
-          color: #70c174;
+          color: #70c174;      
         }
         .form-check-label {
           color: #70c174;
@@ -28,8 +28,28 @@ body {
         width: 400px;
       }
       button:hover {
-        background-color: #70c174;
-        border: solid black 2px;
+        background-color: black;
+        border: solid white 1px;
+      }
+      a {
+        .goto {
+          width: 400px;
+          height: 38px;
+          background-color: #70C174;
+          border-radius: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10px;
+          h2 {
+            font-size: 17px;
+            color: white;
+          }
+        }
+        .goto:hover {
+          background-color: #1D2130;
+          border: solid white 1px;
+        }
       }
     }
   }
