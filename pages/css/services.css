@@ -1,3 +1,6 @@
+header {
+  background-color: #eff7f2;
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -71,4 +74,387 @@ header nav .nav .sign h3 {
   line-height: normal;
   width: 45px;
   height: 25px;
+}
+
+.top {
+  background-color: #eff7f2;
+}
+.top .whole {
+  display: flex;
+  justify-content: space-between;
+  width: 1570px;
+}
+.top .whole .first {
+  padding-top: 96px;
+  padding-left: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+}
+.top .whole .first .serv {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+}
+.top .whole .first .serv .line1 {
+  width: 72px;
+  height: 1px;
+  background-color: #1d2130;
+}
+.top .whole .first .serv h4 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.top .whole .first .description {
+  padding-left: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+}
+.top .whole .first .description h1 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  width: 496px;
+}
+.top .whole .first .description p {
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 496px;
+}
+.top .whole .first .description button {
+  width: 140px;
+  height: 50px;
+  border-radius: 4px;
+  background: #70c174;
+  border: none;
+  color: #ffffff;
+}
+.top .whole .first .description button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #1d2130;
+}
+.top .whole .second {
+  width: 592px;
+  height: 576px;
+  border-radius: 12px;
+  background: #fff;
+  margin: 96px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top .whole .second .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  margin-left: 16px;
+}
+.top .whole .second .container img {
+  width: 192px;
+  height: 160px;
+  border-radius: 8px;
+}
+.top .whole .second .container .text h2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  width: 296px;
+}
+.top .whole .second .container .text p {
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 296px;
+}
+.top .whole .second .container:hover h2 {
+  font-size: 24px;
+}
+.top .whole .second .container:hover p {
+  font-size: 20px;
+}
+.top .whole .second .container:hover img:hover {
+  width: 210px;
+  height: 178px;
+}
+
+.news {
+  background-color: #E5E5E5;
+  padding-bottom: 46px;
+}
+
+.read {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 96px;
+  padding-bottom: 48px;
+}
+.read h1 {
+  color: #1D2130;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+.read p {
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.facts {
+  padding-left: 110px;
+  display: flex;
+  padding-top: 48px;
+  justify-content: space-between;
+}
+.facts .news-1 img {
+  width: 302px;
+  height: 192px;
+}
+.facts .news-1 h2 {
+  color: #1c1d28;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.facts .news-1 p {
+  width: 290px;
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 10px;
+}
+.facts .news-2 img {
+  width: 302px;
+  height: 192px;
+}
+.facts .news-2 h2 {
+  color: #1c1d28;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.facts .news-2 p {
+  width: 290px;
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 10px;
+}
+
+.news-3 {
+  margin-right: 110px;
+}
+.news-3 img {
+  width: 302px;
+  height: 192px;
+}
+.news-3 h2 {
+  color: #1c1d28;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.news-3 p {
+  width: 290px;
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 10px;
+}
+
+.dghe {
+  margin-bottom: 96px;
+}
+.dghe .events {
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+.dghe .events h1 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.dghe .events .line6 {
+  width: 981px;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-left: 16px;
+}
+.dghe .boxes {
+  display: flex;
+  margin-left: 110px;
+  width: 1280px;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.dghe .boxes .box {
+  display: flex;
+  width: 628px;
+  height: 191px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #bef3c0;
+  align-items: center;
+}
+.dghe .boxes .box .aug-1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 32px;
+  padding-right: 24px;
+}
+.dghe .boxes .box .aug-1 h1 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+.dghe .boxes .box .aug-1 h2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.dghe .boxes .box .inf {
+  padding-top: 40px;
+}
+.dghe .boxes .box .inf .tavi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 150px;
+}
+.dghe .boxes .box .inf .tavi h1 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+.dghe .boxes .box .inf .tavi .line7 {
+  width: 44px;
+  height: 2px;
+  background-color: #1d2130;
+}
+.dghe .boxes .box .inf h2 {
+  color: #1d2130;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 8px;
+}
+
+footer {
+  width: 100%;
+  height: 402px;
+  background-color: #0b0706;
+}
+footer .footer-1 {
+  padding-left: 110px;
+  padding-top: 97px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .footer-1 img {
+  height: 80px;
+  margin-right: 117px;
+}
+footer .footer-1 .footer-2 {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-1 .footer-2 h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  margin-bottom: 24px;
+}
+footer .footer-1 .footer-2 a {
+  color: #525560;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 24px;
+}
+footer .footer-1 h2 {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  width: 600px;
+  vertical-align: top;
 }/*# sourceMappingURL=services.css.map */
