@@ -675,17 +675,18 @@ header nav .nav .sign h3 {
   font-weight: 900;
   line-height: 120%;
 }
-.help .news {
+
+.news {
   background-color: #eff7f2;
   padding-bottom: 46px;
 }
-.help .news .read {
+.news .read {
   padding-left: 110px;
   display: flex;
   align-items: center;
   padding-top: 96px;
 }
-.help .news .read h1 {
+.news .read h1 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 40px;
@@ -693,23 +694,23 @@ header nav .nav .sign h3 {
   font-weight: 500;
   line-height: 140%;
 }
-.help .news .read .line6 {
+.news .read .line6 {
   width: 981px;
   height: 1px;
   background-color: #e5e5e5;
   margin-left: 16px;
 }
-.help .news .facts {
+.news .facts {
   padding-left: 110px;
   display: flex;
   padding-top: 48px;
   justify-content: space-between;
 }
-.help .news .facts .news-1 img {
+.news .facts .news-1 img {
   width: 302px;
   height: 192px;
 }
-.help .news .facts .news-1 h2 {
+.news .facts .news-1 h2 {
   color: #1c1d28;
   font-family: sans-serif;
   font-size: 20px;
@@ -717,7 +718,7 @@ header nav .nav .sign h3 {
   font-weight: 500;
   line-height: 150%;
 }
-.help .news .facts .news-1 p {
+.news .facts .news-1 p {
   width: 290px;
   color: #525560;
   font-family: sans-serif;
@@ -727,11 +728,11 @@ header nav .nav .sign h3 {
   line-height: 160%;
   margin-top: 10px;
 }
-.help .news .facts .news-2 img {
+.news .facts .news-2 img {
   width: 302px;
   height: 192px;
 }
-.help .news .facts .news-2 h2 {
+.news .facts .news-2 h2 {
   color: #1c1d28;
   font-family: sans-serif;
   font-size: 20px;
@@ -739,7 +740,7 @@ header nav .nav .sign h3 {
   font-weight: 500;
   line-height: 150%;
 }
-.help .news .facts .news-2 p {
+.news .facts .news-2 p {
   width: 290px;
   color: #525560;
   font-family: sans-serif;
@@ -749,14 +750,14 @@ header nav .nav .sign h3 {
   line-height: 160%;
   margin-top: 10px;
 }
-.help .news .news-3 {
+.news .news-3 {
   margin-right: 110px;
 }
-.help .news .news-3 img {
+.news .news-3 img {
   width: 302px;
   height: 192px;
 }
-.help .news .news-3 h2 {
+.news .news-3 h2 {
   color: #1c1d28;
   font-family: sans-serif;
   font-size: 20px;
@@ -764,7 +765,7 @@ header nav .nav .sign h3 {
   font-weight: 500;
   line-height: 150%;
 }
-.help .news .news-3 p {
+.news .news-3 p {
   width: 290px;
   color: #525560;
   font-family: sans-serif;
@@ -774,16 +775,17 @@ header nav .nav .sign h3 {
   line-height: 160%;
   margin-top: 10px;
 }
-.help .dghe {
+
+.dghe {
   margin-bottom: 96px;
 }
-.help .dghe .events {
+.dghe .events {
   display: flex;
   align-items: center;
   margin-left: 110px;
   margin-top: 50px;
 }
-.help .dghe .events h1 {
+.dghe .events h1 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 40px;
@@ -791,20 +793,20 @@ header nav .nav .sign h3 {
   font-weight: 500;
   line-height: 140%;
 }
-.help .dghe .events .line6 {
+.dghe .events .line6 {
   width: 981px;
   height: 1px;
   background-color: #e5e5e5;
   margin-left: 16px;
 }
-.help .dghe .boxes {
+.dghe .boxes {
   display: flex;
   margin-left: 110px;
   width: 1280px;
   justify-content: space-between;
   margin-top: 48px;
 }
-.help .dghe .boxes .box {
+.dghe .boxes .box {
   display: flex;
   width: 628px;
   height: 191px;
@@ -813,14 +815,14 @@ header nav .nav .sign h3 {
   background: #bef3c0;
   align-items: center;
 }
-.help .dghe .boxes .box .aug-1 {
+.dghe .boxes .box .aug-1 {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
   padding-top: 32px;
   padding-right: 24px;
 }
-.help .dghe .boxes .box .aug-1 h1 {
+.dghe .boxes .box .aug-1 h1 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 48px;
@@ -829,7 +831,7 @@ header nav .nav .sign h3 {
   line-height: 120%;
   font-variant: small-caps;
 }
-.help .dghe .boxes .box .aug-1 h2 {
+.dghe .boxes .box .aug-1 h2 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 16px;
@@ -839,16 +841,16 @@ header nav .nav .sign h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.help .dghe .boxes .box .inf {
+.dghe .boxes .box .inf {
   padding-top: 40px;
 }
-.help .dghe .boxes .box .inf .tavi {
+.dghe .boxes .box .inf .tavi {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 150px;
 }
-.help .dghe .boxes .box .inf .tavi h1 {
+.dghe .boxes .box .inf .tavi h1 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 16px;
@@ -859,12 +861,12 @@ header nav .nav .sign h3 {
   text-transform: uppercase;
   margin-right: 16px;
 }
-.help .dghe .boxes .box .inf .tavi .line7 {
+.dghe .boxes .box .inf .tavi .line7 {
   width: 44px;
   height: 2px;
   background-color: #1d2130;
 }
-.help .dghe .boxes .box .inf h2 {
+.dghe .boxes .box .inf h2 {
   color: #1d2130;
   font-family: sans-serif;
   font-size: 28px;
@@ -873,27 +875,28 @@ header nav .nav .sign h3 {
   line-height: 150%;
   margin-top: 8px;
 }
-.help footer {
+
+footer {
   width: 100%;
   height: 402px;
   background-color: #0b0706;
 }
-.help footer .footer-1 {
+footer .footer-1 {
   padding-left: 110px;
   padding-top: 97px;
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-.help footer .footer-1 img {
+footer .footer-1 img {
   height: 80px;
   margin-right: 117px;
 }
-.help footer .footer-1 .footer-2 {
+footer .footer-1 .footer-2 {
   display: flex;
   flex-direction: column;
 }
-.help footer .footer-1 .footer-2 h1 {
+footer .footer-1 .footer-2 h1 {
   color: #fff;
   font-family: sans-serif;
   font-size: 16px;
@@ -902,7 +905,7 @@ header nav .nav .sign h3 {
   line-height: 160%;
   margin-bottom: 24px;
 }
-.help footer .footer-1 .footer-2 a {
+footer .footer-1 .footer-2 a {
   color: #525560;
   font-family: sans-serif;
   font-size: 14px;
@@ -911,7 +914,7 @@ header nav .nav .sign h3 {
   line-height: 160%;
   margin-bottom: 24px;
 }
-.help footer .footer-1 h2 {
+footer .footer-1 h2 {
   color: aliceblue;
   font-family: sans-serif;
   font-size: 35px;
