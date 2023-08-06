@@ -585,6 +585,7 @@ header {
       img {
         width: 302px;
         height: 192px;
+        border-radius: 10px;
       }
       h2 {
         @include news-h2;
@@ -597,6 +598,7 @@ header {
       img {
         width: 302px;
         height: 192px;
+        border-radius: 10px;
       }
       h2 {
         @include news-h2;
@@ -611,6 +613,7 @@ header {
     img {
       width: 302px;
       height: 192px;
+      border-radius: 10px;
     }
     h2 {
       @include news-h2;
