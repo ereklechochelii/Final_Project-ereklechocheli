@@ -189,7 +189,7 @@ header nav .sign:hover h3 {
   display: none;
 }
 .eco .info h1 {
-  color: #bef3c0;
+  color: #e5e5e5;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 56px;
   font-style: normal;
@@ -213,7 +213,7 @@ header nav .sign:hover h3 {
 .eco .info .red:hover h2,
 .eco .info .plant:hover h2 {
   display: flex;
-  color: #EFF7F2;
+  color: #e5e5e5;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -222,4 +222,62 @@ header nav .sign:hover h3 {
   align-self: center;
   padding-left: 20px;
   text-align: center;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  background-color: #0b0706;
+}
+.history .back {
+  margin: 96px 0px;
+  width: 90%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../imgs/oldcastle.jpg");
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.history .back .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.history .back .center .line2 {
+  width: 250px;
+  height: 3px;
+  background-color: #bef3c0;
+}
+.history .back .center h1 {
+  color: #bef3c0;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  height: 60px;
+}
+.history .back h2 {
+  display: none;
+}
+.history .back:hover {
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 70px;
+}
+.history .back:hover h2 {
+  color: #70C174;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+  display: flex;
 }/*# sourceMappingURL=about.css.map */

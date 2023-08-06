@@ -188,7 +188,7 @@ header {
       }
     }
     h1 {
-      color: #bef3c0;
+      color: #e5e5e5;
       font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 56px;
       font-style: normal;
@@ -202,12 +202,12 @@ header {
       transition: 1s;
       width: 600px;
       height: 753px;
-      h1{ 
+      h1 {
         display: none;
       }
       h2 {
         display: flex;
-        color: #EFF7F2;
+        color: #e5e5e5;
         font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 24px;
         font-style: normal;
@@ -216,8 +216,64 @@ header {
         align-self: center;
         padding-left: 20px;
         text-align: center;
-
       }
+    }
+  }
+}
+.history {
+  display: flex;
+  justify-content: center;
+  background-color: #0b0706;
+  .back {
+    margin: 96px 0px;
+    width: 90%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../imgs/oldcastle.jpg");
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .line2 {
+        width: 250px;
+        height: 3px;
+        background-color: #bef3c0;
+      }
+      h1 {
+        color: #bef3c0;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        height: 60px;
+      }
+    }
+    h2 {
+      display: none;
+    }
+  }
+  .back:hover {
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 70px;
+    h2 {
+      color: #70C174;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      text-align: center;
+      display: flex;
     }
   }
 }
