@@ -118,3 +118,106 @@ header {
     padding-left: 300px;
   }
 }
+.eco {
+  background-color: #bef3c0;
+  .ecosystem {
+    padding-top: 96px;
+    padding-left: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    .line {
+      width: 100px;
+      height: 3px;
+      background-color: #1d2130;
+    }
+    h2 {
+      color: #1d2130;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+    }
+  }
+  .info {
+    display: flex;
+    justify-content: space-around;
+    padding: 96px 0px;
+    .river {
+      width: 400px;
+      height: 553px;
+      background-image: url("../../imgs/trough.jpg");
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      h2 {
+        display: none;
+      }
+    }
+    .red {
+      width: 400px;
+      height: 553px;
+      background-image: url("../../imgs/red.jpg");
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      h2 {
+        display: none;
+      }
+    }
+    .plant {
+      width: 400px;
+      height: 553px;
+      background-image: url("../../imgs/plant.jpg");
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      h2 {
+        display: none;
+      }
+    }
+    h1 {
+      color: #bef3c0;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+    }
+    .river:hover,
+    .red:hover,
+    .plant:hover {
+      border-radius: 10px;
+      transition: 1s;
+      width: 600px;
+      height: 753px;
+      h1{ 
+        display: none;
+      }
+      h2 {
+        display: flex;
+        color: #EFF7F2;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 150%;
+        align-self: center;
+        padding-left: 20px;
+        text-align: center;
+
+      }
+    }
+  }
+}
