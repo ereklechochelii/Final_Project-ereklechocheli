@@ -1,3 +1,6 @@
+header {
+  background-color: #bef3c0;
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -40,7 +43,7 @@ header nav .nav .reg {
   width: 115px;
   height: 43px;
   border-radius: 4px;
-  background-color: #1d2130;
+  background-color: #0b0706;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +63,7 @@ header nav .nav .sign {
   width: 115px;
   height: 43px;
   border-radius: 4px;
-  background-color: #1d2130;
+  background-color: #0b0706;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +81,7 @@ header nav .nav .sign h3 {
 }
 header nav .reg:hover,
 header nav .sign:hover {
-  background-color: #70c174;
+  background-color: aliceblue;
   transition: 0.3s;
   width: 105px;
   height: 33px;
@@ -108,7 +111,7 @@ header nav .sign:hover h3 {
   line-height: 120%;
 }
 .yeli p {
-  color: #525560;
+  color: #bef3c0;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -272,7 +275,7 @@ header nav .sign:hover h3 {
   border-radius: 70px;
 }
 .history .back:hover h2 {
-  color: #70C174;
+  color: #70c174;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -280,4 +283,121 @@ header nav .sign:hover h3 {
   line-height: 150%;
   text-align: center;
   display: flex;
+}
+
+.album {
+  background-color: #bef3c0;
+}
+.album .top {
+  width: 100%;
+  padding: 96px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .top h1 {
+  color: #1d2130;
+  font-size: 64px;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.album .first {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 96px;
+}
+.album .first .half .qarchoxi {
+  width: 370px;
+  height: 710px;
+  background-image: url("../../imgs/qarchoxis cixe.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .first .half .qarchoxi h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .first .half2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.album .first .half2 .cubes {
+  display: flex;
+  justify-content: space-between;
+}
+.album .first .half2 .cubes .largvisi {
+  width: 459px;
+  height: 345px;
+  background-image: url("../../imgs/largvisi.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .first .half2 .cubes .largvisi h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .first .half2 .cubes .lomisi {
+  width: 459px;
+  height: 345px;
+  background-image: url("../../imgs/lomisi.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .first .half2 .cubes .lomisi h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .first .half2 .eristavebi {
+  width: 938px;
+  height: 345px;
+  background-image: url("../../imgs/eristavebialbum.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.album .first .half2 .eristavebi h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
 }/*# sourceMappingURL=about.css.map */
