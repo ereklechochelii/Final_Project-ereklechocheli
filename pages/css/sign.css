@@ -23,16 +23,22 @@ body .form form .mb-3 {
 }
 body .form form .mb-3 .form-label {
   color: #70c174;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body .form form .mb-3 .form-check-label {
   color: #70c174;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body .form form button {
   width: 400px;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body .form form button:hover {
   background-color: black;
   border: solid white 1px;
+}
+body .form form a {
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body .form form a .goto {
   width: 400px;
@@ -47,6 +53,7 @@ body .form form a .goto {
 body .form form a .goto h2 {
   font-size: 17px;
   color: white;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body .form form a .goto:hover {
   background-color: #1D2130;

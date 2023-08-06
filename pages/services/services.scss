@@ -26,7 +26,7 @@ header {
       a {
         margin-left: 40px;
         color: var(--black, #0b0706);
-        font-family: sans-serif;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -48,7 +48,7 @@ header {
         h3 {
           color: #fff;
           text-align: right;
-          font-family: Roboto;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 16px;
           font-style: normal;
           font-weight: 500;
@@ -69,7 +69,7 @@ header {
         h3 {
           color: #fff;
           text-align: right;
-          font-family: Roboto;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 16px;
           font-style: normal;
           font-weight: 500;
@@ -77,6 +77,15 @@ header {
           width: 45px;
           height: 25px;
         }
+      }
+    }
+    .reg:hover, .sign:hover {
+      background-color: #70C174;
+      transition: 0.3s;
+      width: 105px;
+      height: 33px;
+      h3 {
+        color: #1d2130;
       }
     }
   }
@@ -106,7 +115,7 @@ header {
         }
         h4 {
           color: #1d2130;
-          font-family: sans-serif;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 16px;
           font-style: normal;
           font-weight: 700;
@@ -123,7 +132,7 @@ header {
         height: 450px;
         h1 {
           color: #1d2130;
-          font-family: sans-serif;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 56px;
           font-style: normal;
           font-weight: 700;
@@ -132,7 +141,7 @@ header {
         }
         p {
           color: #525560;
-          font-family: sans-serif;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
@@ -177,7 +186,7 @@ header {
         .text {
           h2 {
             color: #1d2130;
-            font-family: sans-serif;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 700;
@@ -186,7 +195,7 @@ header {
           }
           p {
             color: #525560;
-            font-family: sans-serif;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -224,7 +233,7 @@ header {
     padding-bottom: 48px;
     h1 {
       color: #1D2130;
-      font-family: sans-serif;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 40px;
       font-style: normal;
       font-weight: 700;
@@ -233,7 +242,7 @@ header {
     }
     p {
       color:  #525560;  
-      font-family: sans-serif;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -252,7 +261,7 @@ header {
       }
       h2 {
         color: #1c1d28;
-        font-family: sans-serif;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -261,7 +270,7 @@ header {
       p {
         width: 290px;
         color: #525560;
-        font-family: sans-serif;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -276,7 +285,7 @@ header {
       }
       h2 {
         color: #1c1d28;
-        font-family: sans-serif;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -285,7 +294,7 @@ header {
       p {
         width: 290px;
         color: #525560;
-        font-family: sans-serif;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -302,7 +311,7 @@ header {
     }
     h2 {
       color: #1c1d28;
-      font-family: sans-serif;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 500;
@@ -311,7 +320,7 @@ header {
     p {
       width: 290px;
       color: #525560;
-      font-family: sans-serif;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -365,7 +374,7 @@ header {
           padding-right: 24px;
           h1 {
             color: #1d2130;
-            font-family: sans-serif;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
             font-size: 48px;
             font-style: normal;
             font-weight: 500;
@@ -374,7 +383,7 @@ header {
           }
           h2 {
             color: #1d2130;
-            font-family: sans-serif;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
@@ -392,7 +401,7 @@ header {
             margin-right: 150px;
             h1 {
               color: #1d2130;
-              font-family: sans-serif;
+              font-family: "BPG Glaho WEB Caps", sans-serif;
               font-size: 16px;
               font-style: normal;
               font-weight: 500;
@@ -409,7 +418,7 @@ header {
           }
           h2 {
             color: #1d2130;
-            font-family: sans-serif;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
@@ -440,7 +449,7 @@ header {
         flex-direction: column;
         h1 {
           color: #fff;
-          font-family: sans-serif;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 16px;
           font-style: normal;
           font-weight: 700;
@@ -449,7 +458,7 @@ header {
         }
         a {
           color: #525560;
-          font-family: sans-serif;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
@@ -460,7 +469,7 @@ header {
 
       h2 {
         color: aliceblue;
-        font-family: sans-serif;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -470,4 +479,3 @@ header {
       }
     }
   }
-

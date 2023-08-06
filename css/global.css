@@ -84,7 +84,7 @@ header nav .nav {
 header nav .nav a {
   margin-left: 40px;
   color: var(--black, #0b0706);
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -102,7 +102,7 @@ header nav .nav .reg {
 header nav .nav .reg h3 {
   color: #fff;
   text-align: right;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -122,7 +122,7 @@ header nav .nav .sign {
 header nav .nav .sign h3 {
   color: #fff;
   text-align: right;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -151,7 +151,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .message .occup h3 {
   color: #525560;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -179,7 +179,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
   margin-right: 24px;
 }
 .message .target .slogan h2 {
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
@@ -192,7 +192,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .message .target .paragraph P {
   color: #525560;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -203,7 +203,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
   width: 90px;
 }
 .message .target .yours h1 {
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -220,7 +220,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .message .desc .short h4 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -251,7 +251,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .message .desc .logos .monument h2 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -266,7 +266,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .message .desc .logos .nature h2 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -281,7 +281,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .message .desc .logos .people h2 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -296,7 +296,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .message .desc .logos .trad h2 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -321,7 +321,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .desire h4 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -331,7 +331,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .me h1 {
   color: #1d2130;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -343,7 +343,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .me h4 {
   color: #bef3c0;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -375,7 +375,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l1 .t1 h3 {
   color: #1d2130;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -384,7 +384,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l1 .t1 h4 {
   color: #525560;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -402,7 +402,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l2 .t2 h3 {
   color: #1d2130;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -411,7 +411,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l2 .t2 h4 {
   color: #525560;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -429,7 +429,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l3 .t3 h3 {
   color: #1d2130;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -438,7 +438,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l3 .t3 h4 {
   color: #525560;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -456,7 +456,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l4 .t4 h3 {
   color: #1d2130;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -465,7 +465,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .sec-2 .border .list .l4 .t4 h4 {
   color: #525560;
-  font-family: serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -497,7 +497,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .ourwork .title h4 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -515,7 +515,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .ourwork .projects h1 {
   color: #1d2130;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
@@ -524,7 +524,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .ourwork .projects h2 {
   color: #525560;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -533,7 +533,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .ourwork .projects h3 {
   color: #70c174;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -552,7 +552,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .views .back .month h1 {
   color: #fff;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -561,7 +561,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .views .back .month p {
   color: #70c174;
-  font-family: Roboto;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -585,7 +585,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .views .back .month .cubes .pos h4 {
   color: #fff;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -604,7 +604,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .views .back .month .cubes .neg h4 {
   color: #fff;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -623,7 +623,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .views .back .month .cubes .neutral h4 {
   color: #fff;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -678,7 +678,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .help .castle h1 {
   color: #70c174;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
@@ -697,7 +697,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .news .read h1 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -722,7 +722,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .news .facts .news-1 h2 {
   color: #1c1d28;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -731,7 +731,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 .news .facts .news-1 p {
   width: 290px;
   color: #525560;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -745,7 +745,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .news .facts .news-2 h2 {
   color: #1c1d28;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -754,7 +754,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 .news .facts .news-2 p {
   width: 290px;
   color: #525560;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -771,7 +771,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .news .news-3 h2 {
   color: #1c1d28;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -780,7 +780,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 .news .news-3 p {
   width: 290px;
   color: #525560;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -799,7 +799,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .dghe .events h1 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -836,7 +836,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .dghe .boxes .box .aug-1 h1 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -845,7 +845,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .dghe .boxes .box .aug-1 h2 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -864,7 +864,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .dghe .boxes .box .inf .tavi h1 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -880,7 +880,7 @@ header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
 }
 .dghe .boxes .box .inf h2 {
   color: #1d2130;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -910,7 +910,7 @@ footer .footer-1 .footer-2 {
 }
 footer .footer-1 .footer-2 h1 {
   color: #fff;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -919,7 +919,7 @@ footer .footer-1 .footer-2 h1 {
 }
 footer .footer-1 .footer-2 a {
   color: #525560;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -928,7 +928,7 @@ footer .footer-1 .footer-2 a {
 }
 footer .footer-1 h2 {
   color: aliceblue;
-  font-family: sans-serif;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 700;

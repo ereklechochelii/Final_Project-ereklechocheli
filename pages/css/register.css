@@ -28,6 +28,7 @@ body section .form form .person {
   height: 300px;
 }
 body section .form form .person input {
+  font-family: "BPG Glaho WEB Caps", sans-serif;
   width: 352px;
   height: 42px;
   border-top: none;
@@ -39,6 +40,7 @@ body section .form form .person input {
 }
 body section .form form .person ::placeholder {
   color: #EFF7F2;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body section .form form .send {
   margin-top: 40px;
@@ -52,6 +54,7 @@ body section .form form .send input {
   height: 42px;
   background-color: #EFF7F2;
   border: solid 2px #0B0706;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body section .form form .send input:hover {
   color: aliceblue;
@@ -72,6 +75,7 @@ body section .form form .send .getin {
 body section .form form .send .getin h2 {
   font-size: 14px;
   color: black;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
 }
 body section .form form .send .getin:hover {
   background-color: #1D2130;

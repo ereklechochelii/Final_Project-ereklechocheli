@@ -19,19 +19,23 @@ body {
         width: 400px;
         .form-label {
           color: #70c174;      
+          font-family: "BPG Glaho WEB Caps", sans-serif;
         }
         .form-check-label {
           color: #70c174;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
         }
       }
       button {
         width: 400px;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
       }
       button:hover {
         background-color: black;
         border: solid white 1px;
       }
       a {
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         .goto {
           width: 400px;
           height: 38px;
@@ -44,6 +48,7 @@ body {
           h2 {
             font-size: 17px;
             color: white;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
           }
         }
         .goto:hover {
