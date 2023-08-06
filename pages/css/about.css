@@ -33,7 +33,7 @@ header nav .nav a {
   line-height: normal;
 }
 header nav .nav .active {
-  color: #70C174;
+  color: #70c174;
   font-size: 18px;
 }
 header nav .nav .reg {
@@ -76,13 +76,15 @@ header nav .nav .sign h3 {
   width: 45px;
   height: 25px;
 }
-header nav .reg:hover, header nav .sign:hover {
-  background-color: #70C174;
+header nav .reg:hover,
+header nav .sign:hover {
+  background-color: #70c174;
   transition: 0.3s;
   width: 105px;
   height: 33px;
 }
-header nav .reg:hover h3, header nav .sign:hover h3 {
+header nav .reg:hover h3,
+header nav .sign:hover h3 {
   color: #1d2130;
 }
 
@@ -92,4 +94,25 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   background-image: url("../../imgs/yelistba1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.yeli h1 {
+  color: #ebf0f9;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.yeli p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding-left: 300px;
 }/*# sourceMappingURL=about.css.map */
