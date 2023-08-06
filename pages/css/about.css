@@ -32,6 +32,10 @@ header nav .nav a {
   font-weight: 500;
   line-height: normal;
 }
+header nav .nav .active {
+  color: #70C174;
+  font-size: 18px;
+}
 header nav .nav .reg {
   width: 115px;
   height: 43px;

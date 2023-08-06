@@ -130,6 +130,15 @@ header nav .nav .sign h3 {
   width: 45px;
   height: 25px;
 }
+header nav .nav .reg:hover, header nav .nav .sign:hover {
+  background-color: #70C174;
+  transition: 0.3s;
+  width: 105px;
+  height: 33px;
+}
+header nav .nav .reg:hover h3, header nav .nav .sign:hover h3 {
+  color: #1d2130;
+}
 
 .message {
   background-color: #eff7f2;

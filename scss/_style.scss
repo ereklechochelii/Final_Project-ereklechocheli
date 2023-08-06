@@ -31,6 +31,7 @@ header {
         font-weight: 500;
         line-height: normal;
       }
+  
       .reg {
         width: 115px;
         height: 43px;
@@ -71,6 +72,15 @@ header {
           line-height: normal;
           width: 45px;
           height: 25px;
+        }     
+      }
+      .reg:hover, .sign:hover {
+        background-color: #70C174;
+        transition: 0.3s;
+        width: 105px;
+        height: 33px;
+        h3 {
+          color: #1d2130;
         }
       }
     }
