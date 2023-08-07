@@ -572,3 +572,193 @@ header {
     }
   }
 }
+.art-1 {
+  background-color: #0b0706;
+
+  .div-1 {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .cixe {
+      background-image: url("../../imgs/cixe.jpg");
+      width: 600px;
+      height: 500px;
+      border-radius: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        border: solid 2px black;
+        position: absolute;
+        left: 80%;
+        top: 40%;
+      }
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 600px;
+      text-align: center;
+    }
+  }
+  .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 96px;
+    .inside {
+      padding-top: 96px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      p {
+        color: #525560;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160%;
+        width: 600px;
+        text-align: center;
+      }
+      .lar {
+        background-image: url("../../imgs/largvisi1.jpg");
+        width: 600px;
+        height: 500px;
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        img {
+          width: 300px;
+          height: 300px;
+          border-radius: 100%;
+          border: solid 2px black;
+          position: absolute;
+          right: 80%;
+          top: 40%;
+        }
+      }
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 600px;
+      text-align: center;
+      width: 100%;
+      padding-top: 56px;
+    }
+  }
+}
+.art-2 {
+  background-color: #bef3c0;
+  
+  .div-3 {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .lomisi {
+      background-image: url("../../imgs/cixe.jpg");
+      width: 600px;
+      height: 500px;
+      border-radius: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        border: solid 2px black;
+        position: absolute;
+        left: 80%;
+        top: 40%;
+      }
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 600px;
+      text-align: center;
+    }
+  }
+  .div-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 96px;
+    .wirq {
+      padding-top: 96px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      p {
+        color: #525560;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160%;
+        width: 600px;
+        text-align: center;
+      }
+      .lar {
+        background-image: url("../../imgs/largvisi1.jpg");
+        width: 600px;
+        height: 500px;
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        img {
+          width: 300px;
+          height: 300px;
+          border-radius: 100%;
+          border: solid 2px black;
+          position: absolute;
+          right: 80%;
+          top: 40%;
+        }
+      }
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 600px;
+      text-align: center;
+      width: 100%;
+      padding-top: 56px;
+    }
+  }
+}

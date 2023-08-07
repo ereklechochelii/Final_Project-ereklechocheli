@@ -570,4 +570,192 @@ header nav .sign:hover h3 {
   font-weight: 700;
   line-height: 120%;
   text-align: center;
+}
+
+.art-1 {
+  background-color: #0b0706;
+}
+.art-1 .div-1 {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.art-1 .div-1 .cixe {
+  background-image: url("../../imgs/cixe.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-1 .div-1 .cixe img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+}
+.art-1 .div-1 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+}
+.art-1 .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 96px;
+}
+.art-1 .div-2 .inside {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.art-1 .div-2 .inside p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+}
+.art-1 .div-2 .inside .lar {
+  background-image: url("../../imgs/largvisi1.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-1 .div-2 .inside .lar img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  right: 80%;
+  top: 40%;
+}
+.art-1 .div-2 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+  width: 100%;
+  padding-top: 56px;
+}
+
+.art-2 {
+  background-color: #bef3c0;
+}
+.art-2 .div-3 {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.art-2 .div-3 .lomisi {
+  background-image: url("../../imgs/cixe.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-2 .div-3 .lomisi img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+}
+.art-2 .div-3 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+}
+.art-2 .div-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 96px;
+}
+.art-2 .div-4 .wirq {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.art-2 .div-4 .wirq p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+}
+.art-2 .div-4 .wirq .lar {
+  background-image: url("../../imgs/largvisi1.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-2 .div-4 .wirq .lar img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  right: 80%;
+  top: 40%;
+}
+.art-2 .div-4 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+  width: 100%;
+  padding-top: 56px;
 }/*# sourceMappingURL=about.css.map */
