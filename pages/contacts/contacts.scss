@@ -52,8 +52,6 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-          width: 95px;
-          height: 25px;
         }
       }
       .sign {
@@ -73,13 +71,12 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-          width: 45px;
-          height: 25px;
         }
       }
     }
-    .reg:hover, .sign:hover {
-      background-color: #70C174;
+    .reg:hover,
+    .sign:hover {
+      background-color: #70c174;
       transition: 0.3s;
       width: 105px;
       height: 33px;
@@ -113,10 +110,10 @@ header {
         .line1 {
           width: 72px;
           height: 1px;
-          background-color: #EBF0F9;
+          background-color: #ebf0f9;
         }
         h4 {
-          color: #EBF0F9;
+          color: #ebf0f9;
           font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 16px;
           font-style: normal;
@@ -129,7 +126,7 @@ header {
       .hear {
         margin-top: 36px;
         h1 {
-          color: #EBF0F9;
+          color: #ebf0f9;
           font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 56px;
           font-style: normal;
@@ -139,7 +136,7 @@ header {
           padding-left: 100px;
         }
         p {
-          color: #EBF0F9;
+          color: #ebf0f9;
           font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 16px;
           font-style: normal;
@@ -159,7 +156,7 @@ header {
       justify-content: space-between;
       .talk {
         h2 {
-          color: #EBF0F9;
+          color: #ebf0f9;
           font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 24px;
           font-style: normal;
@@ -173,7 +170,7 @@ header {
           justify-content: space-between;
           margin: 10px 0px 16px;
           h6 {
-            color: #EBF0F9;
+            color: #ebf0f9;
             font-family: "BPG Glaho WEB Caps", sans-serif;
             font-size: 16px;
             font-style: normal;
@@ -189,7 +186,7 @@ header {
       }
       .headoffice {
         h2 {
-          color: #EBF0F9;
+          color: #ebf0f9;
           font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 24px;
           font-style: normal;
@@ -198,7 +195,7 @@ header {
         }
         .direction {
           h6 {
-            color: #EBF0F9;
+            color: #ebf0f9;
             font-family: "BPG Glaho WEB Caps", sans-serif;
             font-size: 16px;
             font-style: normal;
@@ -222,11 +219,11 @@ header {
     padding: 96px 0px;
     form {
       width: 100%;
-      
+
       .a {
         display: flex;
         margin-bottom: 30px;
-        padding-left:450px;
+        padding-left: 450px;
         .name {
           display: flex;
           flex-direction: column;
@@ -271,7 +268,7 @@ header {
       .b {
         display: flex;
         flex-direction: column;
-        padding-left:450px;
+        padding-left: 450px;
         width: 770px;
         .email {
           display: flex;
@@ -388,4 +385,3 @@ footer {
     }
   }
 }
-

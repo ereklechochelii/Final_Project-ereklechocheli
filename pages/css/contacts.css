@@ -53,8 +53,6 @@ header nav .nav .reg h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 95px;
-  height: 25px;
 }
 header nav .nav .sign {
   width: 115px;
@@ -73,16 +71,16 @@ header nav .nav .sign h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 45px;
-  height: 25px;
 }
-header nav .reg:hover, header nav .sign:hover {
-  background-color: #70C174;
+header nav .reg:hover,
+header nav .sign:hover {
+  background-color: #70c174;
   transition: 0.3s;
   width: 105px;
   height: 33px;
 }
-header nav .reg:hover h3, header nav .sign:hover h3 {
+header nav .reg:hover h3,
+header nav .sign:hover h3 {
   color: #1d2130;
 }
 
@@ -113,10 +111,10 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
 .contact .whole .welcome .contactus .line1 {
   width: 72px;
   height: 1px;
-  background-color: #EBF0F9;
+  background-color: #ebf0f9;
 }
 .contact .whole .welcome .contactus h4 {
-  color: #EBF0F9;
+  color: #ebf0f9;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -129,7 +127,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   margin-top: 36px;
 }
 .contact .whole .welcome .hear h1 {
-  color: #EBF0F9;
+  color: #ebf0f9;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 56px;
   font-style: normal;
@@ -139,7 +137,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   padding-left: 100px;
 }
 .contact .whole .welcome .hear p {
-  color: #EBF0F9;
+  color: #ebf0f9;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -157,7 +155,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   justify-content: space-between;
 }
 .contact .whole .info .talk h2 {
-  color: #EBF0F9;
+  color: #ebf0f9;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -172,7 +170,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   margin: 10px 0px 16px;
 }
 .contact .whole .info .talk .number h6 {
-  color: #EBF0F9;
+  color: #ebf0f9;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -185,7 +183,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   background-color: #e5e5e5;
 }
 .contact .whole .info .headoffice h2 {
-  color: #EBF0F9;
+  color: #ebf0f9;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -193,7 +191,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   line-height: 160%;
 }
 .contact .whole .info .headoffice .direction h6 {
-  color: #EBF0F9;
+  color: #ebf0f9;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
