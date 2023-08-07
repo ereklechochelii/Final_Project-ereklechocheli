@@ -99,6 +99,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   flex-direction: column;
   justify-content: space-between;
   height: 600px;
+  padding-left: 110px;
 }
 .top .whole .first .serv {
   display: flex;

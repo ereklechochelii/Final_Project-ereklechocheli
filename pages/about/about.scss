@@ -1014,6 +1014,16 @@ header {
     }
   }
 }
+.devide1 {
+  width: 100%;
+  height: 30px;
+  background-color: #70c174;
+}
+.devide2 {
+  width: 100%;
+  height: 30px;
+  background-color: gold;
+}
 .sec-2 {
   background-color: #e5e5e5;
   .gandzi {
@@ -1030,31 +1040,150 @@ header {
       font-weight: 700;
       line-height: 120%; /* 76.8px */
     }
-   div {
+    div {
+      padding: 96px 0px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 80%;
+
+      p {
+        color: gold;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160%;
+        width: 500px;
+        text-align: center;
+        border: 2px solid gold;
+        background-color: orange;
+        border-radius: 20px;
+      }
+      img {
+        width: 500px;
+        height: 500px;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+.devide3 {
+  width: 100%;
+  height: 30px;
+  background-color: #1d2130;
+}
+.dasi {
+  background-color: #eff7f2;
+  .saswauli {
     padding: 96px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 80%;
+    flex-direction: column;
+    .gocha {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: url("../../imgs/dasi.jpg");
+      width: 600px;
+      height: 600px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 100%;
+      h1 {
+        color: #BEF3C0;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; /* 76.8px */
+      }
+      h2 {
+        color: #70c174;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+      }
+      h3 {
+       display: none;
+      }
+    }
     
-    p {
-      color: gold;
+  }
+  .gocha:hover {
+    transition: 1s;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100px;
+    h1 {
+      display: none;
+    }
+    h3{
+      color: #eff7f2;
       font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 900;
       line-height: 160%;
-      width: 500px;
       text-align: center;
-      border: 1px solid black;
-      background-color: orange;
-      border-radius: 20px;
+      display: flex;
+      width: 600px;
+      padding-top: 16px;
     }
-    img {
-  width: 500px;
-  height: 500px;
-  border-radius: 100%;
-    }
-   }
   }
 }
+footer {
+  width: 100%;
+  height: 402px;
+  background-color: #0b0706;
+  .footer-1 {
+    padding-left: 110px;
+    padding-top: 97px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    img {
+      height: 80px;
+      margin-right: 117px;
+    }
+    .footer-2 {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        color: #fff;
+        font-family: "BPG Glaho WEB Caps", sans-serif;;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        margin-bottom: 24px;
+      }
+      a {
+        color: #525560;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 24px;
+      }
+    }
+
+    h2 {
+      color: aliceblue;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      width: 600px;
+      vertical-align: top;
+    }
+  }
+}
+
