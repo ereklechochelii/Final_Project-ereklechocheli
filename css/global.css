@@ -107,8 +107,6 @@ header nav .nav .reg h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 95px;
-  height: 25px;
 }
 header nav .nav .sign {
   width: 115px;
@@ -127,8 +125,6 @@ header nav .nav .sign h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 45px;
-  height: 25px;
 }
 header nav .nav .reg:hover, header nav .nav .sign:hover {
   background-color: #70C174;

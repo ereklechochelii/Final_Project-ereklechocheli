@@ -56,8 +56,6 @@ header nav .nav .reg h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 95px;
-  height: 25px;
 }
 header nav .nav .sign {
   width: 115px;
@@ -76,8 +74,6 @@ header nav .nav .sign h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 45px;
-  height: 25px;
 }
 header nav .reg:hover, header nav .sign:hover {
   background-color: #70C174;
@@ -95,11 +91,10 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
 .top .whole {
   display: flex;
   justify-content: space-between;
-  width: 1570px;
+  width: 90%;
 }
 .top .whole .first {
   padding-top: 96px;
-  padding-left: 110px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

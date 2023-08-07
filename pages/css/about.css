@@ -56,8 +56,6 @@ header nav .nav .reg h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 95px;
-  height: 25px;
 }
 header nav .nav .sign {
   width: 115px;
@@ -76,8 +74,6 @@ header nav .nav .sign h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 45px;
-  height: 25px;
 }
 header nav .reg:hover,
 header nav .sign:hover {
@@ -192,7 +188,7 @@ header nav .sign:hover h3 {
   display: none;
 }
 .eco .info h1 {
-  color: #e5e5e5;
+  color: #fbff00;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 56px;
   font-style: normal;
@@ -216,7 +212,7 @@ header nav .sign:hover h3 {
 .eco .info .red:hover h2,
 .eco .info .plant:hover h2 {
   display: flex;
-  color: #e5e5e5;
+  color: #fbff00;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -279,7 +275,7 @@ header nav .sign:hover h3 {
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 150%;
   text-align: center;
   display: flex;
@@ -287,6 +283,7 @@ header nav .sign:hover h3 {
 
 .album {
   background-color: #bef3c0;
+  padding-bottom: 96px;
 }
 .album .top {
   width: 100%;
@@ -396,6 +393,179 @@ header nav .sign:hover h3 {
   color: aliceblue;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .second {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 96px;
+}
+.album .second .pirveli {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.album .second .pirveli .kubebi {
+  display: flex;
+  justify-content: space-between;
+}
+.album .second .pirveli .kubebi .wirqoli {
+  width: 459px;
+  height: 345px;
+  background-image: url("../../imgs/wirqoli.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .second .pirveli .kubebi .wirqoli h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .second .pirveli .kubebi .cxavati {
+  width: 459px;
+  height: 345px;
+  background-image: url("../../imgs/cxavati.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .second .pirveli .kubebi .cxavati h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .second .pirveli .yelistba {
+  width: 938px;
+  height: 345px;
+  background-image: url("../../imgs/yelisalbum.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .second .pirveli .yelistba h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .second .meore .alevi {
+  width: 370px;
+  height: 710px;
+  background-image: url("../../imgs/alevi.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.album .second .meore .alevi h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .third {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 1000px;
+}
+.album .third .two {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+}
+.album .third .two .armazi {
+  background-image: url("../../imgs/qsnisarmazi.jpg");
+  width: 650px;
+  height: 300px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .third .two .armazi h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .third .two .yanchaveti {
+  background-image: url("../../imgs/yanchaveti.jpg");
+  width: 650px;
+  height: 300px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .third .two .yanchaveti h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+.album .third .one .xofa {
+  background-image: url("../../imgs/xofa.jpg");
+  width: 1430px;
+  height: 600px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album .third .one .xofa h1 {
+  color: aliceblue;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 60px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;

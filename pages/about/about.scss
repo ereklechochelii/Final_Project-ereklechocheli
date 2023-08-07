@@ -53,8 +53,6 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-          width: 95px;
-          height: 25px;
         }
       }
       .sign {
@@ -74,8 +72,6 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-          width: 45px;
-          height: 25px;
         }
       }
     }
@@ -189,7 +185,7 @@ header {
       }
     }
     h1 {
-      color: #e5e5e5;
+      color: #fbff00;
       font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 56px;
       font-style: normal;
@@ -208,7 +204,7 @@ header {
       }
       h2 {
         display: flex;
-        color: #e5e5e5;
+        color: #fbff00;
         font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 24px;
         font-style: normal;
@@ -271,7 +267,7 @@ header {
       font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 20px;
       font-style: normal;
-      font-weight: 700;
+      font-weight: 900;
       line-height: 150%;
       text-align: center;
       display: flex;
@@ -280,6 +276,7 @@ header {
 }
 .album {
   background-color: #bef3c0;
+  padding-bottom: 96px;
   .top {
     width: 100%;
     padding: 96px 0px;
@@ -388,6 +385,184 @@ header {
           color: aliceblue;
           font-family: "BPG Glaho WEB Caps", sans-serif;
           font-size: 50px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .second {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 96px;
+    .pirveli {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .kubebi {
+        display: flex;
+        justify-content: space-between;
+        .wirqoli {
+          width: 459px;
+          height: 345px;
+          background-image: url("../../imgs/wirqoli.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          h1 {
+            color: aliceblue;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            text-align: center;
+          }
+        }
+        .cxavati {
+          width: 459px;
+          height: 345px;
+          background-image: url("../../imgs/cxavati.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          h1 {
+            color: aliceblue;
+            font-family: "BPG Glaho WEB Caps", sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            text-align: center;
+          }
+        }
+      }
+      .yelistba {
+        width: 938px;
+        height: 345px;
+        background-image: url("../../imgs/yelisalbum.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          color: aliceblue;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%;
+          text-align: center;
+        }
+      }
+    }
+    .meore {
+      .alevi {
+        width: 370px;
+        height: 710px;
+
+        background-image: url("../../imgs/alevi.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        h1 {
+          color: aliceblue;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .third {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 1000px;
+    .two {
+      display: flex;
+      justify-content: space-between;
+      width: 86%;
+      .armazi {
+        background-image: url("../../imgs/qsnisarmazi.jpg");
+        width: 650px;
+        height: 300px;
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          color: aliceblue;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%;
+          text-align: center;
+        }
+      }
+      .yanchaveti {
+        background-image: url("../../imgs/yanchaveti.jpg");
+        width: 650px;
+        height: 300px;
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          color: aliceblue;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%;
+          text-align: center;
+        }
+      }
+    }
+    .one {
+      .xofa {
+        background-image: url("../../imgs/xofa.jpg");
+        width: 1430px;
+        height: 600px;
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          color: aliceblue;
+          font-family: "BPG Glaho WEB Caps", sans-serif;
+          font-size: 60px;
           font-style: normal;
           font-weight: 700;
           line-height: 120%;

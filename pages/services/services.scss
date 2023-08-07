@@ -53,8 +53,7 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-          width: 95px;
-          height: 25px;
+         
         }
       }
       .sign {
@@ -74,8 +73,7 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-          width: 45px;
-          height: 25px;
+          
         }
       }
     }
@@ -95,10 +93,9 @@ header {
   .whole {
     display: flex;
     justify-content: space-between;
-    width: 1570px;
+    width: 90%;
     .first {
       padding-top: 96px;
-      padding-left: 110px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
