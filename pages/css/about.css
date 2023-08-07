@@ -620,9 +620,9 @@ header nav .sign:hover h3 {
 .art-1 .div-2 .inside {
   padding-top: 96px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
 }
 .art-1 .div-2 .inside p {
   color: #525560;
@@ -664,19 +664,20 @@ header nav .sign:hover h3 {
   text-align: center;
   width: 100%;
   padding-top: 56px;
+  width: 90%;
 }
 
 .art-2 {
   background-color: #bef3c0;
 }
-.art-2 .div-3 {
+.art-2 .div-1 {
   padding-top: 96px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.art-2 .div-3 .lomisi {
-  background-image: url("../../imgs/cixe.jpg");
+.art-2 .div-1 .lom {
+  background-image: url("../../imgs/lomisi.jpg");
   width: 600px;
   height: 500px;
   border-radius: 100%;
@@ -685,7 +686,7 @@ header nav .sign:hover h3 {
   background-repeat: no-repeat;
   position: relative;
 }
-.art-2 .div-3 .lomisi img {
+.art-2 .div-1 .lom img {
   width: 300px;
   height: 300px;
   border-radius: 100%;
@@ -694,31 +695,31 @@ header nav .sign:hover h3 {
   left: 80%;
   top: 40%;
 }
-.art-2 .div-3 p {
+.art-2 .div-1 p {
   color: #525560;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
   line-height: 160%;
-  width: 600px;
+  width: 500px;
   text-align: center;
 }
-.art-2 .div-4 {
+.art-2 .div-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 96px;
 }
-.art-2 .div-4 .wirq {
+.art-2 .div-2 .inside {
   padding-top: 96px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
 }
-.art-2 .div-4 .wirq p {
+.art-2 .div-2 .inside p {
   color: #525560;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
@@ -728,8 +729,8 @@ header nav .sign:hover h3 {
   width: 600px;
   text-align: center;
 }
-.art-2 .div-4 .wirq .lar {
-  background-image: url("../../imgs/largvisi1.jpg");
+.art-2 .div-2 .inside .wirq {
+  background-image: url("../../imgs/wirqoli2.jpg");
   width: 600px;
   height: 500px;
   border-radius: 100%;
@@ -738,16 +739,110 @@ header nav .sign:hover h3 {
   background-repeat: no-repeat;
   position: relative;
 }
-.art-2 .div-4 .wirq .lar img {
+.art-2 .div-2 .inside .wirq img {
   width: 300px;
   height: 300px;
   border-radius: 100%;
   border: solid 2px black;
   position: absolute;
   right: 80%;
-  top: 40%;
 }
-.art-2 .div-4 p {
+.art-2 .div-2 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 500px;
+  text-align: center;
+  width: 100%;
+  padding-top: 56px;
+  width: 90%;
+}
+
+.art-3 {
+  background-color: #0b0706;
+}
+.art-3 .div-1 {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.art-3 .div-1 .yelistb {
+  background-image: url("../../imgs/yelistba1.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-3 .div-1 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+}
+.art-3 .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 96px;
+}
+.art-3 .div-2 .inside {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.art-3 .div-2 .inside p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+}
+.art-3 .div-2 .inside .xofa {
+  background-image: url("../../imgs/xofa1.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-3 .div-2 .inside .xofa .a {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  right: 80%;
+  top: 60%;
+}
+.art-3 .div-2 .inside .xofa .b {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  right: 80%;
+  bottom: 60%;
+}
+.art-3 .div-2 p {
   color: #525560;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 16px;
@@ -758,4 +853,99 @@ header nav .sign:hover h3 {
   text-align: center;
   width: 100%;
   padding-top: 56px;
+  width: 90%;
+}
+
+.art-4 {
+  background-color: #bef3c0;
+}
+.art-4 .div-1 {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.art-4 .div-1 .armaz {
+  background-image: url("../../imgs/armazi1.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-4 .div-1 .armaz img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+}
+.art-4 .div-1 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 500px;
+  text-align: center;
+}
+.art-4 .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 96px;
+}
+.art-4 .div-2 .inside {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.art-4 .div-2 .inside p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 600px;
+  text-align: center;
+}
+.art-4 .div-2 .inside .yanch {
+  background-image: url("../../imgs/yanchaveti1.jpg");
+  width: 600px;
+  height: 500px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.art-4 .div-2 .inside .yanch img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 2px black;
+  position: absolute;
+  right: 80%;
+}
+.art-4 .div-2 p {
+  color: #525560;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  width: 500px;
+  text-align: center;
+  width: 100%;
+  padding-top: 56px;
+  width: 90%;
 }/*# sourceMappingURL=about.css.map */

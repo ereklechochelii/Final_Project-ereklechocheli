@@ -620,9 +620,9 @@ header {
     .inside {
       padding-top: 96px;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      width: 100%;
+      width: 90%;
       p {
         color: #525560;
         font-family: "BPG Glaho WEB Caps", sans-serif;
@@ -664,20 +664,21 @@ header {
       text-align: center;
       width: 100%;
       padding-top: 56px;
+      width: 90%;
     }
   }
 }
 .art-2 {
   background-color: #bef3c0;
-  
-  .div-3 {
+
+  .div-1 {
     padding-top: 96px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    .lomisi {
-      background-image: url("../../imgs/cixe.jpg");
+    .lom {
+      background-image: url("../../imgs/lomisi.jpg");
       width: 600px;
       height: 500px;
       border-radius: 100%;
@@ -702,22 +703,22 @@ header {
       font-style: normal;
       font-weight: 900;
       line-height: 160%;
-      width: 600px;
+      width: 500px;
       text-align: center;
     }
   }
-  .div-4 {
+  .div-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 96px;
-    .wirq {
+    .inside {
       padding-top: 96px;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      width: 100%;
+      width: 90%;
       p {
         color: #525560;
         font-family: "BPG Glaho WEB Caps", sans-serif;
@@ -728,8 +729,8 @@ header {
         width: 600px;
         text-align: center;
       }
-      .lar {
-        background-image: url("../../imgs/largvisi1.jpg");
+      .wirq {
+        background-image: url("../../imgs/wirqoli2.jpg");
         width: 600px;
         height: 500px;
         border-radius: 100%;
@@ -743,8 +744,103 @@ header {
           border-radius: 100%;
           border: solid 2px black;
           position: absolute;
+         right: 80%;
+          
+        }
+      }
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 500px;
+      text-align: center;
+      width: 100%;
+      padding-top: 56px;
+      width: 90%;
+    }
+  }
+}
+.art-3 {
+  background-color: #0b0706;
+  .div-1 {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .yelistb {
+      background-image: url("../../imgs/yelistba1.jpg");
+      width: 600px;
+      height: 500px;
+      border-radius: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 600px;
+      text-align: center;
+    }
+  }
+  .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 96px;
+    .inside {
+      padding-top: 96px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      p {
+        color: #525560;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160%;
+        width: 600px;
+        text-align: center;
+      }
+      .xofa {
+        background-image: url("../../imgs/xofa1.jpg");
+        width: 600px;
+        height: 500px;
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+          .a {
+          width: 300px;
+          height: 300px;
+          border-radius: 100%;
+          border: solid 2px black;
+          position: absolute;
           right: 80%;
-          top: 40%;
+          top: 60%;
+        }
+        .b {
+          width: 300px;
+          height: 300px;
+          border-radius: 100%;
+          border: solid 2px black;
+          position: absolute;
+          right: 80%;
+         bottom: 60%;
         }
       }
     }
@@ -759,6 +855,103 @@ header {
       text-align: center;
       width: 100%;
       padding-top: 56px;
+      width: 90%;
+    }
+  }
+}
+.art-4 {
+  background-color: #bef3c0;
+
+  .div-1 {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .armaz {
+      background-image: url("../../imgs/armazi1.jpg");
+      width: 600px;
+      height: 500px;
+      border-radius: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        border: solid 2px black;
+        position: absolute;
+        left: 80%;
+        top: 40%;
+      }
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 500px;
+      text-align: center;
+    }
+  }
+  .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 96px;
+    .inside {
+      padding-top: 96px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      p {
+        color: #525560;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160%;
+        width: 600px;
+        text-align: center;
+      }
+      .yanch {
+        background-image: url("../../imgs/yanchaveti1.jpg");
+        width: 600px;
+        height: 500px;
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        img {
+          width: 300px;
+          height: 300px;
+          border-radius: 100%;
+          border: solid 2px black;
+          position: absolute;
+         right: 80%;
+          
+        }
+      }
+    }
+    p {
+      color: #525560;
+      font-family: "BPG Glaho WEB Caps", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 160%;
+      width: 500px;
+      text-align: center;
+      width: 100%;
+      padding-top: 56px;
+      width: 90%;
     }
   }
 }
