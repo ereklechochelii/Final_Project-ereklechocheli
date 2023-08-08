@@ -1317,27 +1317,26 @@ footer {
       .one {
         width: 80%;
         .xofa {
-         width: 80%;
-
+          width: 80%;
         }
       }
     }
   }
 }
 @media (max-width: 930px) {
-   .sec-1 {
-    .photo{
+  .sec-1 {
+    .photo {
       .sasaxle {
         width: 600px;
         height: 300px;
       }
     }
-   }
-   .dasi {
+  }
+  .dasi {
     .saswauli {
       display: none;
     }
-   }
+  }
 }
 @media (max-width: 795px) {
   .album {
@@ -1349,70 +1348,25 @@ footer {
       }
       .half2 {
         width: 70%;
-        .cubes {
-          .largvisi {
-           
-          }
-          .lomisi {
-            
-          }
-        }
-        .eristavebi {
-         
-        }
       }
     }
     .second {
-      .pirveli {
-       
-        .kubebi {
-         
-          .wirqoli {
-           
-          }
-          .cxavati {
-           
-          }
-        }
-        .yelistba {
-          
-        }
-      }
       .meore {
         display: none;
-        .alevi {
-         
+      }
+    }
+    .sec-1 {
+      .photo {
+        .sasaxle {
+          width: 300px;
+          height: 100px;
         }
       }
     }
-    .third {
-      .two {
-        .armazi {
-          
-        }
-        .yanchaveti {
-          
-        }
-      }
-      .one {
-       
-        .xofa {
-        
-        }
+    .dasi {
+      .saswauli {
+        display: none;
       }
     }
   }
-  .sec-1 {
-    .photo{
-      .sasaxle {
-        width:300px;
-        height: 100px;
-      }
-    }
-   }
-   .dasi {
-    .saswauli {
-      display: none;
-    }
-   }
 }
