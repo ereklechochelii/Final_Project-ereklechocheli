@@ -13,6 +13,7 @@
     align-items: flex-start;
     justify-content: space-evenly;
     width: 800px;
+    padding-left: 0px;
   }
 }
 @media (max-width: 1240px) {
@@ -28,4 +29,22 @@
   header .fa-bars {
     display: inline-block;
   }
+}
+footer {
+  height: 100%;
+}
+footer .footer-1 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 0px;
+}
+footer .footer-1 div {
+  padding-bottom: 36px;
+}
+footer .footer-1 h2 {
+  display: none;
+}
+footer .footer-1 img {
+  margin: 16px 0px;
 }/*# sourceMappingURL=media.css.map */

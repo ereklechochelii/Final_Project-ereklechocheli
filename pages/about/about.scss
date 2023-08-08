@@ -551,10 +551,12 @@ header {
       }
     }
     .one {
+      width: 1000px;
+      height: 600px;
       .xofa {
         background-image: url("../../imgs/xofa.jpg");
-        width: 1430px;
-        height: 600px;
+        width: 100%;
+        height: 90%;
         border-radius: 10px;
         background-position: center;
         background-size: cover;
@@ -1097,7 +1099,7 @@ header {
       background-repeat: no-repeat;
       border-radius: 100%;
       h1 {
-        color: #BEF3C0;
+        color: #bef3c0;
         font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 58px;
         font-style: normal;
@@ -1113,10 +1115,9 @@ header {
         line-height: 120%;
       }
       h3 {
-       display: none;
+        display: none;
       }
     }
-    
   }
   .gocha:hover {
     transition: 1s;
@@ -1126,7 +1127,7 @@ header {
     h1 {
       display: none;
     }
-    h3{
+    h3 {
       color: #eff7f2;
       font-family: "BPG Glaho WEB Caps", sans-serif;
       font-size: 20px;
@@ -1159,7 +1160,7 @@ footer {
       flex-direction: column;
       h1 {
         color: #fff;
-        font-family: "BPG Glaho WEB Caps", sans-serif;;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -1190,3 +1191,228 @@ footer {
   }
 }
 
+@media (max-width: 1580px) {
+  section {
+    img {
+      width: 90%;
+      height: 90%;
+    }
+    div {
+      img {
+        display: none;
+      }
+    }
+  }
+  article {
+    img {
+      width: 90%;
+      height: 90%;
+    }
+    div {
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1232px) {
+  header {
+    nav {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .nav {
+        display: none;
+      }
+    }
+    .fa-bars {
+      display: inline-block;
+    }
+  }
+  .message {
+    img {
+      display: none;
+    }
+  }
+
+  footer {
+    height: 100%;
+    .footer-1 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-left: 0px;
+      div {
+        padding-bottom: 36px;
+      }
+      h2 {
+        display: none;
+      }
+      img {
+        margin: 16px 0px;
+      }
+    }
+  }
+}
+@media (max-width: 1450px) {
+  .album {
+    .first {
+      .half {
+        .qarchoxi {
+          width: 90%;
+        }
+      }
+      .half2 {
+        .cubes {
+          width: 80%;
+          .largvisi {
+            width: 300px;
+            height: 345px;
+          }
+          .lomisi {
+            width: 300px;
+            height: 345px;
+          }
+        }
+        .eristavebi {
+          width: 80%;
+        }
+      }
+    }
+    .second {
+      .pirveli {
+        width: 500px;
+        .kubebi {
+          width: 90%;
+          .wirqoli {
+            width: 300px;
+            height: 345px;
+          }
+          .cxavati {
+            width: 300px;
+            height: 345px;
+          }
+        }
+        .yelistba {
+          width: 80%;
+        }
+      }
+      .meore {
+        .alevi {
+          width: 60%;
+        }
+      }
+    }
+    .third {
+      .two {
+        .armazi {
+          width: 80%;
+        }
+        .yanchaveti {
+          width: 80%;
+        }
+      }
+      .one {
+        width: 80%;
+        .xofa {
+         width: 80%;
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 930px) {
+   .sec-1 {
+    .photo{
+      .sasaxle {
+        width: 600px;
+        height: 300px;
+      }
+    }
+   }
+   .dasi {
+    .saswauli {
+      display: none;
+    }
+   }
+}
+@media (max-width: 795px) {
+  .album {
+    .first {
+      .half {
+        .qarchoxi {
+          width: 90%;
+        }
+      }
+      .half2 {
+        width: 70%;
+        .cubes {
+          .largvisi {
+           
+          }
+          .lomisi {
+            
+          }
+        }
+        .eristavebi {
+         
+        }
+      }
+    }
+    .second {
+      .pirveli {
+       
+        .kubebi {
+         
+          .wirqoli {
+           
+          }
+          .cxavati {
+           
+          }
+        }
+        .yelistba {
+          
+        }
+      }
+      .meore {
+        display: none;
+        .alevi {
+         
+        }
+      }
+    }
+    .third {
+      .two {
+        .armazi {
+          
+        }
+        .yanchaveti {
+          
+        }
+      }
+      .one {
+       
+        .xofa {
+        
+        }
+      }
+    }
+  }
+  .sec-1 {
+    .photo{
+      .sasaxle {
+        width:300px;
+        height: 100px;
+      }
+    }
+   }
+   .dasi {
+    .saswauli {
+      display: none;
+    }
+   }
+}
