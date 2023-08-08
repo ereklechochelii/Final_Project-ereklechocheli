@@ -418,6 +418,7 @@ footer .footer-1 h2 {
   }
   .form .send form .b .button {
     width: 70%;
+    justify-content: flex-start;
   }
 }
 @media (max-width: 1232px) {
