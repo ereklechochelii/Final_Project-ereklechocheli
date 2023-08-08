@@ -86,6 +86,9 @@ header nav .reg:hover h3,
 header nav .sign:hover h3 {
   color: #1d2130;
 }
+header .fa-bars {
+  display: none;
+}
 
 .yeli {
   width: 100%;

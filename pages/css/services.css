@@ -75,14 +75,19 @@ header nav .nav .sign h3 {
   font-weight: 500;
   line-height: normal;
 }
-header nav .reg:hover, header nav .sign:hover {
-  background-color: #70C174;
+header nav .reg:hover,
+header nav .sign:hover {
+  background-color: #70c174;
   transition: 0.3s;
   width: 105px;
   height: 33px;
 }
-header nav .reg:hover h3, header nav .sign:hover h3 {
+header nav .reg:hover h3,
+header nav .sign:hover h3 {
   color: #1d2130;
+}
+header .fa-bars {
+  display: none;
 }
 
 .top {
@@ -212,7 +217,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
 }
 
 .news {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   padding-bottom: 46px;
 }
 
@@ -225,7 +230,7 @@ header nav .reg:hover h3, header nav .sign:hover h3 {
   padding-bottom: 48px;
 }
 .read h1 {
-  color: #1D2130;
+  color: #1d2130;
   font-family: "BPG Glaho WEB Caps", sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -469,4 +474,19 @@ footer .footer-1 h2 {
   line-height: 140%;
   width: 600px;
   vertical-align: top;
+}
+
+@media (max-width: 1232px) {
+  header nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav .nav {
+    display: none;
+  }
+  header .fa-bars {
+    display: inline-block;
+  }
 }/*# sourceMappingURL=services.css.map */

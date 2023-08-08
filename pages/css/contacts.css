@@ -83,6 +83,9 @@ header nav .reg:hover h3,
 header nav .sign:hover h3 {
   color: #1d2130;
 }
+header .fa-bars {
+  display: none;
+}
 
 .contact {
   background-image: url("../../imgs/akhalgori4.jpg");
@@ -375,4 +378,109 @@ footer .footer-1 h2 {
   line-height: 140%;
   width: 600px;
   vertical-align: top;
+}
+
+@media (max-width: 1303px) {
+  .contact .whole {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form .send form {
+    width: 90%;
+  }
+  .form .send form .a {
+    padding-left: 0px;
+    width: 400px;
+  }
+  .form .send form .a .name input {
+    width: 90%;
+  }
+  .form .send form .a .lname input {
+    width: 90%;
+  }
+  .form .send form .b {
+    padding-left: 0px;
+    width: 400px;
+  }
+  .form .send form .b .email {
+    width: 400px;
+  }
+  .form .send form .b .email input {
+    width: 390px;
+  }
+  .form .send form .b .textarea {
+    width: 400px;
+  }
+  .form .send form .b .textarea input {
+    width: 390px;
+  }
+  .form .send form .b .button {
+    width: 70%;
+  }
+}
+@media (max-width: 1232px) {
+  header nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav .nav {
+    display: none;
+  }
+  header .fa-bars {
+    display: inline-block;
+  }
+  .message img {
+    display: none;
+  }
+  footer {
+    height: 100%;
+  }
+  footer .footer-1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 0px;
+  }
+  footer .footer-1 div {
+    padding-bottom: 36px;
+  }
+  footer .footer-1 h2 {
+    display: none;
+  }
+  footer .footer-1 img {
+    margin: 16px 0px;
+  }
+}
+@media (max-width: 703px) {
+  .contact .whole .welcome {
+    padding-left: 0px;
+    width: 400px;
+  }
+  .contact .whole .welcome .hear h1 {
+    width: 400px;
+    font-size: 18px;
+  }
+  .contact .whole .welcome .hear p {
+    width: 400px;
+    font-size: 10px;
+  }
+  .contact .whole .info {
+    width: 400px;
+  }
+  .contact .whole .info .talk h2 {
+    font-size: 18px;
+  }
+  .contact .whole .info .talk .number h6 {
+    font-size: 10px;
+  }
+  .contact .whole .info .headoffice h2 {
+    font-size: 18px;
+  }
+  .contact .whole .info .headoffice .direction h6 {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=contacts.css.map */
