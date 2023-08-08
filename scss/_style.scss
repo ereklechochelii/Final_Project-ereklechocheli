@@ -31,7 +31,7 @@ header {
         font-weight: 500;
         line-height: normal;
       }
-  
+
       .reg {
         width: 115px;
         height: 43px;
@@ -49,7 +49,6 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-         
         }
       }
       .sign {
@@ -69,11 +68,11 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-         
-        }     
+        }
       }
-      .reg:hover, .sign:hover {
-        background-color: #70C174;
+      .reg:hover,
+      .sign:hover {
+        background-color: #70c174;
         transition: 0.3s;
         width: 105px;
         height: 33px;
@@ -83,10 +82,13 @@ header {
       }
     }
   }
+  .fa-bars {
+    display: none;
+  }
 }
 .message {
   background-color: #eff7f2;
-  height: 800px;
+  height: 100%;
   .occup {
     display: flex;
     align-items: center;
@@ -229,6 +231,7 @@ header {
 .sec-2 {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   .desire {
     display: flex;
     align-items: center;
@@ -403,6 +406,7 @@ header {
       font-weight: 700;
       line-height: 120%;
       margin-bottom: 20px;
+      text-align: center;
     }
     h2 {
       color: #525560;
@@ -412,6 +416,8 @@ header {
       font-weight: 700;
       line-height: 120%;
       margin-bottom: 15px;
+
+      text-align: center;
     }
     h3 {
       color: #70c174;
@@ -420,6 +426,7 @@ header {
       font-style: normal;
       font-weight: 700;
       line-height: 150%;
+      text-align: center;
     }
   }
 }
@@ -623,6 +630,10 @@ header {
 }
 .dghe {
   margin-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   .events {
     display: flex;
     align-items: center;
@@ -645,10 +656,10 @@ header {
   }
   .boxes {
     display: flex;
-    margin-left: 110px;
-    width: 1280px;
+    width: 100%;
     justify-content: space-between;
     margin-top: 48px;
+    width: 80%;
     .box {
       display: flex;
       width: 628px;
@@ -711,8 +722,9 @@ header {
 
 footer {
   width: 100%;
-  height: 402px;
+  height: 100%;
   background-color: #0b0706;
+  display: flex;
   .footer-1 {
     padding-left: 110px;
     padding-top: 97px;
@@ -728,7 +740,7 @@ footer {
       flex-direction: column;
       h1 {
         color: #fff;
-        font-family: "BPG Glaho WEB Caps", sans-serif;;
+        font-family: "BPG Glaho WEB Caps", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -757,4 +769,118 @@ footer {
       vertical-align: top;
     }
   }
+}
+
+@media (max-width: 1643px) {
+  .message {
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  .sec-2 {
+    img {
+      display: none;
+    }
+  }
+}
+@media (max-width: 1402px) {
+  .events {
+    .line6 {
+      display: none;
+    }
+  }
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+    .box {
+      margin-bottom: 36px;
+    }
+  }
+}
+@media (max-width: 1232px) {
+  header {
+    nav {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .nav {
+        display: none;
+      }
+    }
+    .fa-bars {
+      display: inline-block;
+    }
+  }
+  .message {
+    img {
+      display: none;
+    }
+  }
+  footer {
+    .footer-1 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      div {
+        padding-bottom: 36px;
+      }
+      h2 {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: 1130px) {
+    .read {
+      width: 500px;
+      .line6 {
+        display: none;
+      }
+    }
+    .news {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .facts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        div {
+          margin-bottom: 16px;
+          vertical-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 830px) {
+  .text {
+    * {
+      margin: 0;
+    }
+  }
+
+  .views {
+    height: 1000px;
+    .back {
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .message {
+  .desc {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    .logos {
+      flex-direction: column;
+      justify-content: space-between;
+      height: 120px;
+    }
+  }
+}
 }
